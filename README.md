@@ -30,7 +30,7 @@ npm install
 
 and then:
 
-npm playwright install
+npm install playwright
 
 
 ### 4. Run the Tests
@@ -43,10 +43,24 @@ This will execute all the tests defined in the project and display the results i
 Project Structure
 The project structure is as follows:
 
+To run all the tests, execute the following command in the terminal:
 
+npx playwright test
+This will execute all the tests defined in the project and display the results in the terminal.
+
+### 5. Troubleshooting
+
+All test cases have succesfully passed, so in case that every taste fails, run npx playwright install in the terminal
+
+Project Structure
+The project structure is as follows:
 ATM/
 ├── tests/
-│   └── ViewTest.ts
+│   └── ViewTest.specs.ts
+│   │__ RemoveTest.specs.ts
+│   │__ AddTest.specs.ts
+│   │__ TotalTest.specs.ts
+│    
 ├── README.md
 ├── package-lock.json
 ├── package.json
