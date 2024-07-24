@@ -12,7 +12,7 @@ Download the repository to your local machine. You can clone it using Git:
 git clone <repository-url>
 Alternatively, you can download the ZIP file from GitHub and extract it.
 
-2. Open Visual Studio Code
+### 2. Open Visual Studio Code
 Open Visual Studio Code and load the project folder.
 
 Launch Visual Studio Code.
@@ -20,7 +20,7 @@ Click on File > Open Folder....
 Navigate to and select the ATM folder that you just downloaded or extracted.
 
 
-3. Install Dependencies
+### 3. Install Dependencies
 Once the folder is open in Visual Studio Code, open a new terminal window:
 
 Click on Terminal > New Terminal.
@@ -33,7 +33,7 @@ and then:
 npm playwright install
 
 
-4. Run the Tests
+### 4. Run the Tests
    
 To run all the tests, execute the following command in the terminal:
 
