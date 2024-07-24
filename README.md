@@ -34,6 +34,7 @@ npm playwright install
 
 
 4. Run the Tests
+   
 To run all the tests, execute the following command in the terminal:
 
 npx playwright test
