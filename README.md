@@ -27,7 +27,8 @@ Click on Terminal > New Terminal.
 In the terminal, run the following commands to install the necessary dependencies:
 
 npm install
-Then, install the Playwright browsers:
+
+and then:
 
 npm playwright install
 
